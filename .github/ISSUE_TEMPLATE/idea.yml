@@ -1,0 +1,15 @@
+name: Idea or site problem / 제안·사이트 문제
+description: A topic or feature you wish the book had, or something on the site that does not work. / 다뤘으면 하는 주제, 기능, 사이트 문제
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like? / 무엇을 바라나요?
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser and device (for site problems) / 브라우저와 기기(사이트 문제일 때)
+      placeholder: Chrome 140, macOS
