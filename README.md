@@ -62,6 +62,10 @@ Every chapter is built around the same loop. You read an idea, try it with your 
 
 ## ✨ Features
 
+<p align="center">
+  <img src=".github/assets/en/features.webp" alt="Feature cards: Library, Lessons, Figures, Grading, Quizzes, Review and Terminal" width="100%">
+</p>
+
 | | |
 |---|---|
 | 🧭 **A roadmap, not a pile of chapters** | 216 chapters in 33 parts and 12 tracks, arranged in 7 layers. Each chapter declares what it builds on, so you always know what to read next. |
@@ -103,37 +107,6 @@ Twelve tracks are arranged in seven layers. A track builds only on tracks in the
 | **L6 Integration** | Capstone Projects | Can you turn what you learned into a research output you can publish? |
 
 </details>
-
-## 🖼️ Screenshots
-
-<p align="center">
-  <img src=".github/assets/en/library.jpg" alt="The library: books fanned out in 3D with a sidebar of fields and a card for the selected book" width="100%">
-  <br><sub><b>Library</b>: pick a field on the left, turn the fan, and open a book.</sub>
-</p>
-
-<p align="center">
-  <img src=".github/assets/en/lesson.jpg" alt="A lesson window with its outline, next to a quiz window" width="100%">
-  <br><sub><b>Lessons</b>: the reader with its outline, and a quiz window alongside.</sub>
-</p>
-
-<table>
-  <tr>
-    <td width="50%"><img src=".github/assets/en/login.jpg" alt="Login screen with a large clock and the selected profile"></td>
-    <td width="50%"><img src=".github/assets/en/desktop.jpg" alt="Desktop with the dock on the left and the dashboard on the right"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub><b>Login</b>: pick a name and start. No account needed.</sub></td>
-    <td align="center"><sub><b>Desktop</b>: apps in the dock, progress in the dashboard.</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src=".github/assets/en/code-editor.jpg" alt="Code editor with an exercise, its file tree and test list"></td>
-    <td width="50%"><img src=".github/assets/en/terminal.jpg" alt="Terminal running neofetch and ls next to the dashboard"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub><b>Code editor</b>: starter code, tests, Run and Grade.</sub></td>
-    <td align="center"><sub><b>Terminal</b>: a practice shell with real Python in the browser.</sub></td>
-  </tr>
-</table>
 
 ## 🚀 Getting started
 
