@@ -171,7 +171,7 @@
 <details>
 <summary><strong>수업이나 스터디에서 써도 되나요?</strong></summary>
 <br>
-물론이에요. 수강생에게 장의 주소를 알려 주면 각자의 브라우저에 진도와 퀴즈 기록이 쌓여요. 운영 방법은 <a href="https://ml4sci.com/orientation/study-guide/">0.5장 스터디·강의로 활용하기</a>에 정리해 두었어요. 슬라이드에서는 자기 말로 설명하고 본문은 출처를 밝혀 짧게 인용해 주세요. 장 전체나 그림·퀴즈를 옮겨 배포하려면 먼저 허락을 받아야 해요.
+물론이에요. 수강생에게 장의 주소를 알려 주면 각자의 브라우저에 진도와 퀴즈 기록이 쌓여요. 운영 방법은 <a href="https://ml4sci.com/orientation/study-guide/">0.5장 스터디·강의로 활용하기</a>에 정리해 두었어요. 슬라이드에서는 자기 말로 설명하고 본문은 출처를 밝혀 짧게 인용해 주세요. 장 전체나 그림·퀴즈를 옮겨 배포하려면 먼저 <a href="mailto:support@ml4sci.com">support@ml4sci.com</a>으로 허락을 받아야 해요.
 </details>
 
 <details>
@@ -191,13 +191,14 @@
 - ⭐ **이 저장소에 스타를 눌러 주세요.** 더 많은 과학자와 엔지니어가 이 책을 찾을 수 있어요.
 - 🐞 **오류나 헷갈리는 설명**을 발견하면 [이슈를 열어 주세요](https://github.com/pjmbatman/ml4sci/issues/new/choose). 한국어로 써도, 영어로 써도 좋아요.
 - 💡 다뤘으면 하는 **주제나 장, 기능**을 제안해 주세요.
+- ✉️ 사용 허락, 강의 문의처럼 공개하기 어려운 연락은 [support@ml4sci.com](mailto:support@ml4sci.com)으로 **메일**을 보내 주세요.
 - 🔗 연구실, 스터디, 수업에 [ml4sci.com](https://ml4sci.com)을 **공유**해 주세요.
 
 ## 📜 라이선스
 
 © 2026 pjmbatman. All rights reserved.
 
-책은 [ml4sci.com](https://ml4sci.com)에서 무료로 읽을 수 있어요. 무료로 읽을 수 있다고 해서 내용을 복제, 수정, 재배포하거나 머신러닝 모델 학습에 쓸 수 있는 것은 아니에요. 사용 허락이 필요하면 [이슈](https://github.com/pjmbatman/ml4sci/issues)로 문의해 주세요. 자세한 내용은 [LICENSE](LICENSE)를 보세요.
+책은 [ml4sci.com](https://ml4sci.com)에서 무료로 읽을 수 있어요. 무료로 읽을 수 있다고 해서 내용을 복제, 수정, 재배포하거나 머신러닝 모델 학습에 쓸 수 있는 것은 아니에요. 사용 허락이 필요하면 [support@ml4sci.com](mailto:support@ml4sci.com)으로 메일을 보내 주세요. 자세한 내용은 [LICENSE](LICENSE)를 보세요.
 
 사이트가 쓰는 서드파티 소프트웨어와 글꼴은 <https://ml4sci.com/third-party-notices.txt>에 정리돼 있어요.
 
@@ -211,5 +212,5 @@
     </picture>
   </a>
   <br>
-  <sub><a href="https://ml4sci.com">바로 읽기</a> · <a href="README.md">English</a> · <a href="https://github.com/pjmbatman/ml4sci/issues/new/choose">의견 보내기</a></sub>
+  <sub><a href="https://ml4sci.com">바로 읽기</a> · <a href="README.md">English</a> · <a href="https://github.com/pjmbatman/ml4sci/issues/new/choose">의견 보내기</a> · <a href="mailto:support@ml4sci.com">support@ml4sci.com</a></sub>
 </div>

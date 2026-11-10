@@ -171,7 +171,7 @@ Yes, there is a phone layout. For the code editor and side-by-side windows, a de
 <details>
 <summary><strong>Can I use it in a course or a study group?</strong></summary>
 <br>
-Yes. Share chapter links with your students, and each student's progress and quiz history build up in their own browser. <a href="https://ml4sci.com/en/orientation/study-guide/">0.5 Using This Roadmap for Study Groups and Courses</a> explains how to run one. In slides, explain in your own words and quote the text briefly with a citation. Ask for permission before redistributing whole chapters, figures or quizzes.
+Yes. Share chapter links with your students, and each student's progress and quiz history build up in their own browser. <a href="https://ml4sci.com/en/orientation/study-guide/">0.5 Using This Roadmap for Study Groups and Courses</a> explains how to run one. In slides, explain in your own words and quote the text briefly with a citation. Ask for permission at <a href="mailto:support@ml4sci.com">support@ml4sci.com</a> before redistributing whole chapters, figures or quizzes.
 </details>
 
 <details>
@@ -191,13 +191,14 @@ No. This repository introduces the project and collects feedback. The manuscript
 - ⭐ **Star this repository** so more scientists and engineers can find the book.
 - 🐞 **Report an error** or a confusing explanation: [open an issue](https://github.com/pjmbatman/ml4sci/issues/new/choose). English and Korean are both welcome.
 - 💡 **Suggest** a topic, a chapter or a feature the site should have.
+- ✉️ **Email** [support@ml4sci.com](mailto:support@ml4sci.com) for permission requests, course use or anything you'd rather not post publicly.
 - 🔗 **Share** [ml4sci.com/en](https://ml4sci.com/en/) or [ml4sci.com](https://ml4sci.com) with your lab, study group or class.
 
 ## 📜 License
 
 © 2026 pjmbatman. All rights reserved.
 
-The book is free to read at [ml4sci.com](https://ml4sci.com). Free access does not grant permission to copy, modify, redistribute or use the content to train machine-learning models. For permission requests, [open an issue](https://github.com/pjmbatman/ml4sci/issues). See [LICENSE](LICENSE).
+The book is free to read at [ml4sci.com](https://ml4sci.com). Free access does not grant permission to copy, modify, redistribute or use the content to train machine-learning models. For permission requests, email [support@ml4sci.com](mailto:support@ml4sci.com). See [LICENSE](LICENSE).
 
 Third-party software and fonts used by the site are listed at <https://ml4sci.com/third-party-notices.txt>.
 
@@ -211,5 +212,5 @@ Third-party software and fonts used by the site are listed at <https://ml4sci.co
     </picture>
   </a>
   <br>
-  <sub><a href="https://ml4sci.com/en/">Read online</a> · <a href="README.ko.md">한국어</a> · <a href="https://github.com/pjmbatman/ml4sci/issues/new/choose">Feedback</a></sub>
+  <sub><a href="https://ml4sci.com/en/">Read online</a> · <a href="README.ko.md">한국어</a> · <a href="https://github.com/pjmbatman/ml4sci/issues/new/choose">Feedback</a> · <a href="mailto:support@ml4sci.com">support@ml4sci.com</a></sub>
 </div>
