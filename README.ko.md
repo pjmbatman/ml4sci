@@ -62,6 +62,10 @@
 
 ## ✨ 특징
 
+<p align="center">
+  <img src=".github/assets/ko/features.webp" alt="기능 카드: 서재, 강의, 인터랙티브 그림, 코드 채점, 퀴즈, 복습, 터미널" width="100%">
+</p>
+
 | | |
 |---|---|
 | 🧭 **장 모음이 아니라 로드맵** | 7단계 레이어에 12개 분야, 33부, 216개 장이 놓여 있어요. 장마다 먼저 읽을 장이 정해져 있어서 다음에 뭘 읽을지 늘 알 수 있어요. |
@@ -103,37 +107,6 @@
 | **L6 통합** | 종합 프로젝트 | 배운 것을 하나의 공개 가능한 연구 산출물로 만들 수 있는가? |
 
 </details>
-
-## 🖼️ 화면
-
-<p align="center">
-  <img src=".github/assets/ko/library.jpg" alt="서재: 책이 3D 부채꼴로 펼쳐져 있고 왼쪽에 분야 목록, 아래에 고른 책의 카드가 있다" width="100%">
-  <br><sub><b>서재</b>: 왼쪽에서 분야를 고르고, 부채꼴을 돌려 책을 펼쳐요.</sub>
-</p>
-
-<p align="center">
-  <img src=".github/assets/ko/lesson.jpg" alt="차례가 있는 강의 창과 그 옆의 퀴즈 창" width="100%">
-  <br><sub><b>강의</b>: 차례가 있는 본문과 그 옆의 퀴즈 창.</sub>
-</p>
-
-<table>
-  <tr>
-    <td width="50%"><img src=".github/assets/ko/login.jpg" alt="큰 시계와 선택된 프로필이 있는 로그인 화면"></td>
-    <td width="50%"><img src=".github/assets/ko/desktop.jpg" alt="왼쪽에 독, 오른쪽에 대시보드가 있는 데스크톱"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub><b>로그인</b>: 이름만 정하면 시작해요. 계정은 필요 없어요.</sub></td>
-    <td align="center"><sub><b>데스크톱</b>: 독에는 앱, 대시보드에는 진도.</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src=".github/assets/ko/code-editor.jpg" alt="연습문제와 파일 트리, 테스트 목록이 있는 코드 편집기"></td>
-    <td width="50%"><img src=".github/assets/ko/terminal.jpg" alt="대시보드 옆에서 neofetch와 ls를 실행한 터미널"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub><b>코드 편집기</b>: 시작 코드와 테스트, 실행과 채점.</sub></td>
-    <td align="center"><sub><b>터미널</b>: 브라우저 안에서 진짜 Python이 도는 연습용 셸.</sub></td>
-  </tr>
-</table>
 
 ## 🚀 시작하기
 
