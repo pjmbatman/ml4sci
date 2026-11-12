@@ -11,9 +11,9 @@
 
 <p>
   <a href="https://ml4sci.com"><img alt="ml4sci.com에서 읽기" src="https://img.shields.io/badge/%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C%20%EC%9D%BD%EA%B8%B0-ml4sci.com-4f46e5?logo=bookstack&logoColor=white"></a>
-  <img alt="216개 장" src="https://img.shields.io/badge/%EC%9E%A5-216%EA%B0%9C-0284c7">
-  <img alt="퀴즈 1,315문항" src="https://img.shields.io/badge/%ED%80%B4%EC%A6%88-1%2C315%EB%AC%B8%ED%95%AD-7c3aed">
-  <img alt="자동 채점 실습 258개" src="https://img.shields.io/badge/%EC%9E%90%EB%8F%99%20%EC%B1%84%EC%A0%90%20%EC%8B%A4%EC%8A%B5-258%EA%B0%9C-059669?logo=python&logoColor=white">
+  <img alt="219개 장" src="https://img.shields.io/badge/%EC%9E%A5-219%EA%B0%9C-0284c7">
+  <img alt="퀴즈 1,358문항" src="https://img.shields.io/badge/%ED%80%B4%EC%A6%88-1%2C358%EB%AC%B8%ED%95%AD-7c3aed">
+  <img alt="자동 채점 실습 261개" src="https://img.shields.io/badge/%EC%9E%90%EB%8F%99%20%EC%B1%84%EC%A0%90%20%EC%8B%A4%EC%8A%B5-261%EA%B0%9C-059669?logo=python&logoColor=white">
   <br>
   <img alt="브라우저에서 실행" src="https://img.shields.io/badge/%EC%8B%A4%ED%96%89-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C-0f766e?logo=webassembly&logoColor=white">
   <img alt="가입 필요 없음" src="https://img.shields.io/badge/%EA%B0%80%EC%9E%85-%ED%95%84%EC%9A%94%20%EC%97%86%EC%9D%8C-d97706">
@@ -57,8 +57,8 @@
 |---|---|---|
 | **1&nbsp;·&nbsp;읽기** | 수식과 그림이 함께 있는 본문을 읽어요. 차례가 지금 읽는 곳을 따라와요. | `학습 목표 → 개념 → 실습 → 실패 사례 → 통과 기준` |
 | **2&nbsp;·&nbsp;만져&nbsp;보기** | 슬라이더와 실시간 그래프로 증명을 읽기 전에 먼저 감을 잡아요. | 본문 곳곳의 인터랙티브 그림 |
-| **3&nbsp;·&nbsp;코드** | 내장 편집기에서 Python을 짜고 *채점*을 누르면 테스트마다 통과 여부가 나와요. | 연습문제 258개, [Pyodide](https://pyodide.org)로 실행 |
-| **4&nbsp;·&nbsp;퀴즈** | 틀린 답마다 어떤 오해에서 나왔는지 짚어 주고, 틀린 문제는 복습 목록으로 다시 돌아와요. | 퀴즈 1,315문항과 복습 대기열 |
+| **3&nbsp;·&nbsp;코드** | 내장 편집기에서 Python을 짜고 *채점*을 누르면 테스트마다 통과 여부가 나와요. | 연습문제 261개, [Pyodide](https://pyodide.org)로 실행 |
+| **4&nbsp;·&nbsp;퀴즈** | 틀린 답마다 어떤 오해에서 나왔는지 짚어 주고, 틀린 문제는 복습 목록으로 다시 돌아와요. | 퀴즈 1,358문항과 복습 대기열 |
 
 ## ✨ 특징
 
@@ -68,7 +68,7 @@
 
 | | |
 |---|---|
-| 🧭 **장 모음이 아니라 로드맵** | 7단계 레이어에 12개 분야, 33부, 216개 장이 놓여 있어요. 장마다 먼저 읽을 장이 정해져 있어서 다음에 뭘 읽을지 늘 알 수 있어요. |
+| 🧭 **장 모음이 아니라 로드맵** | 7단계 레이어에 12개 분야, 33부, 219개 장이 놓여 있어요. 장마다 먼저 읽을 장이 정해져 있어서 다음에 뭘 읽을지 늘 알 수 있어요. |
 | 🐍 **브라우저에서 돌아가는 Python** | 코드 셀이 그 자리에서 Pyodide로 실행돼요(NumPy, SciPy, pandas, matplotlib, scikit-learn). PyTorch와 GPU 예제는 복사 단추와 함께 읽기 전용으로 보여 주고, 장마다 내려받는 실습 파일로 내 컴퓨터에서 돌려 볼 수 있어요. |
 | ✅ **자동 채점 연습문제** | 내장 코드 편집기에 *실행*과 *채점* 단추가 있고, 테스트마다 결과를 보여 줘요. 장의 실습 파일은 `.zip`으로도 받을 수 있어요. |
 | 🧠 **이유까지 알려 주는 퀴즈** | 틀린 답마다 그 밑에 깔린 오해를 설명해 주고, 틀린 문제는 복습 목록에 모여요. |
@@ -116,7 +116,7 @@
 
 ## 📈 진행 상황
 
-**1.0 버전이 한국어와 영어로 공개돼 있어요.** 216개 장, 퀴즈 1,315문항, 자동 채점 연습문제 258개를 두 언어 모두에서 볼 수 있어요. 책은 계속 다듬고 있어요. 장마다 검토하고 고치며, 제보받은 오류는 그 자리에서 바로잡아요.
+**1.0 버전이 한국어와 영어로 공개돼 있어요.** 219개 장, 퀴즈 1,358문항, 자동 채점 연습문제 261개를 두 언어 모두에서 볼 수 있어요. 책은 계속 다듬고 있어요. 장마다 검토하고 고치며, 제보받은 오류는 그 자리에서 바로잡아요.
 
 ## ❓ 자주 묻는 질문
 
