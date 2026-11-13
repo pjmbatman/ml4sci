@@ -1,0 +1,23 @@
+name: Content error / 내용 오류
+description: A factual error, a wrong quiz answer, a broken exercise or a confusing explanation. / 사실 오류, 퀴즈 정답, 연습문제, 헷갈리는 설명
+labels: ["content"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Chapter URL / 장 주소
+      placeholder: https://ml4sci.com/linear-algebra/affine-and-nonlinear/
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong? / 무엇이 틀렸나요?
+      description: Quote the sentence, quiz item or exercise. / 문장, 퀴즈 문항, 연습문제를 인용해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix and source / 고칠 내용과 근거
+      description: What should it say, and how do you know? A reference helps. / 어떻게 바뀌어야 하는지, 근거(참고 문헌)가 있으면 함께 적어 주세요.
