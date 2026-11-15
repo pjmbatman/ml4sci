@@ -3,3 +3,6 @@ contact_links:
   - name: Read the book / 책 읽기
     url: https://ml4sci.com
     about: Free, no sign-up. / 가입 없이 무료
+  - name: Report by email / 메일로 제보
+    url: mailto:support@ml4sci.com
+    about: No GitHub account needed. Every chapter and quiz also has a report link. / GitHub 계정 없이 보낼 수 있어요. 각 장과 퀴즈에도 제보 링크가 있어요.

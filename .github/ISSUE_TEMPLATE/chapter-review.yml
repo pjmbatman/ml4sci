@@ -1,0 +1,48 @@
+name: Chapter review / 장 검토
+description: Review a whole chapter so it can be marked as reviewed. / 장 하나를 검토해 '검토 완료'로 올릴 수 있게 도와주세요.
+labels: ["review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing. Read the chapter, try its quiz and exercises, and tell us what you found. A short review is fine.
+        검토해 주셔서 고마워요. 장을 읽고 퀴즈와 연습문제를 풀어 본 뒤, 찾은 점을 알려 주세요. 짧아도 괜찮아요.
+  - type: input
+    id: url
+    attributes:
+      label: Chapter URL / 장 주소
+      placeholder: https://ml4sci.com/linear-algebra/affine-and-nonlinear/
+    validations:
+      required: true
+  - type: input
+    id: background
+    attributes:
+      label: Your background / 검토자 배경
+      description: Field and level, so we can weigh the review. / 분야와 수준(예 "배터리 박사과정", "ML 엔지니어 3년").
+  - type: checkboxes
+    id: checked
+    attributes:
+      label: What did you check? / 무엇을 확인했나요?
+      options:
+        - label: Facts, equations and citations / 사실, 수식, 인용
+        - label: Code and lab results / 코드와 실습 결과
+        - label: Quiz answers and explanations / 퀴즈 정답과 해설
+        - label: Exercises and their tests / 연습문제와 테스트
+        - label: Clarity and order of explanation / 설명의 명확성과 순서
+  - type: textarea
+    id: findings
+    attributes:
+      label: Findings / 찾은 점
+      description: Quote the sentence or item, then say what should change and why. / 문장이나 문항을 인용하고, 어떻게 바뀌어야 하는지와 근거를 적어 주세요.
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Overall / 종합 의견
+      options:
+        - Ready after small fixes / 작은 수정 뒤 검토 완료 가능
+        - Needs revision / 수정이 더 필요함
+        - Major problems / 큰 문제가 있음
+    validations:
+      required: true
