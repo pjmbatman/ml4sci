@@ -12,14 +12,13 @@
 <p>
   <a href="https://ml4sci.com"><img alt="ml4sci.com에서 읽기" src="https://img.shields.io/badge/%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C%20%EC%9D%BD%EA%B8%B0-ml4sci.com-4f46e5?logo=bookstack&logoColor=white"></a>
   <img alt="226개 장" src="https://img.shields.io/badge/%EC%9E%A5-226%EA%B0%9C-0284c7">
-  <img alt="인터랙티브 그림 669개" src="https://img.shields.io/badge/%EC%9D%B8%ED%84%B0%EB%9E%99%ED%8B%B0%EB%B8%8C%20%EA%B7%B8%EB%A6%BC-669%EA%B0%9C-db2777">
   <img alt="퀴즈 1,406문항" src="https://img.shields.io/badge/%ED%80%B4%EC%A6%88-1%2C406%EB%AC%B8%ED%95%AD-7c3aed">
   <img alt="자동 채점 실습 268개" src="https://img.shields.io/badge/%EC%9E%90%EB%8F%99%20%EC%B1%84%EC%A0%90%20%EC%8B%A4%EC%8A%B5-268%EA%B0%9C-059669?logo=python&logoColor=white">
   <br>
   <img alt="브라우저에서 실행" src="https://img.shields.io/badge/%EC%8B%A4%ED%96%89-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C-0f766e?logo=webassembly&logoColor=white">
   <img alt="가입 필요 없음" src="https://img.shields.io/badge/%EA%B0%80%EC%9E%85-%ED%95%84%EC%9A%94%20%EC%97%86%EC%9D%8C-d97706">
   <img alt="언어: 한국어와 영어" src="https://img.shields.io/badge/%EC%96%B8%EC%96%B4-%ED%95%9C%EA%B5%AD%EC%96%B4%20%7C%20English-64748b">
-  <img alt="버전 2.0" src="https://img.shields.io/badge/%EB%B2%84%EC%A0%84-2.0-334155">
+  <img alt="버전 1.0" src="https://img.shields.io/badge/%EB%B2%84%EC%A0%84-1.0-334155">
   <a href="https://github.com/pjmbatman/ml4sci/stargazers"><img alt="GitHub 스타" src="https://img.shields.io/github/stars/pjmbatman/ml4sci?style=social"></a>
 </p>
 
@@ -37,7 +36,7 @@
 **Machine Learning for Science**([ml4sci.com](https://ml4sci.com))는 연구에 머신러닝을 써 보고 싶은 **과학자와 엔지니어**, 그리고 실제 과학 문제를 풀고 싶은 **AI 연구자**를 위한 인터랙티브 디지털 책이에요. 본문을 읽고, 그림을 직접 움직여 보고, Python 코드를 짜서 채점까지 모두 브라우저에서 해요. 설치할 것도, 만들 계정도 없어요.
 
 <p align="center">
-  <a href="https://ml4sci.com"><img src=".github/assets/ko/demo.gif" alt="짧은 데모: 그림이 든 강의와 곁의 퀴즈, 인터랙티브 그림의 점을 끌면 표가 따라 바뀌는 모습, 브라우저 안 코드 채점, 3D 책장" width="100%"></a>
+  <a href="https://ml4sci.com"><img src=".github/assets/ko/demo.gif" alt="짧은 데모: 퀴즈가 곁에 있는 강의, 인터랙티브 그림, 브라우저 안 코드 채점, 3D 책장" width="100%"></a>
 </p>
 
 > [!NOTE]
@@ -50,14 +49,14 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/ko/loop-dark.webp">
-    <img src=".github/assets/ko/loop-light.webp" alt="공부하는 흐름: 1 인터랙티브 그림이 든 본문 읽기, 2 그림의 점을 선분 밖으로 끌면 표가 convex 결합이 아니라고 바뀌는 만져 보기, 3 브라우저에서 코드를 짜고 채점하기, 4 틀린 답마다 이유를 짚어 주는 퀴즈" width="100%">
+    <img src=".github/assets/ko/loop-light.webp" alt="공부하는 흐름: 1 읽기, 2 만져 보기, 3 코드, 4 퀴즈" width="100%">
   </picture>
 </p>
 
 | 단계 | 하는 일 | 책에서는 |
 |---|---|---|
 | **1&nbsp;·&nbsp;읽기** | 수식과 그림이 함께 있는 본문을 읽어요. 차례가 지금 읽는 곳을 따라와요. | `학습 목표 → 개념 → 실습 → 실패 사례 → 통과 기준` |
-| **2&nbsp;·&nbsp;만져&nbsp;보기** | 점을 끌거나 슬라이더를 움직이거나 겹을 켜면 그림이 바로 다시 그려져요. 어떤 그림은 결과를 보여 주기 전에 먼저 예측해 보게 해요. | 인터랙티브 그림 669개, 그중 434개는 직접 조작 |
+| **2&nbsp;·&nbsp;만져&nbsp;보기** | 슬라이더와 실시간 그래프로 증명을 읽기 전에 먼저 감을 잡아요. | 본문 곳곳의 인터랙티브 그림 |
 | **3&nbsp;·&nbsp;코드** | 내장 편집기에서 Python을 짜고 *채점*을 누르면 테스트마다 통과 여부가 나와요. | 연습문제 268개, [Pyodide](https://pyodide.org)로 실행 |
 | **4&nbsp;·&nbsp;퀴즈** | 틀린 답마다 어떤 오해에서 나왔는지 짚어 주고, 틀린 문제는 복습 목록으로 다시 돌아와요. | 퀴즈 1,406문항과 복습 대기열 |
 
@@ -70,7 +69,6 @@
 | | |
 |---|---|
 | 🧭 **장 모음이 아니라 로드맵** | 7단계 레이어에 12개 분야, 226개 장이 놓여 있어요. 모든 분야가 함께 읽는 공통 책 27부와, 한 분야를 깊이 읽는 분야 책 5권(물리·공학, 지구·기후, 화학·재료, 생명과학, 배터리)이에요. 장마다 먼저 읽을 장이 정해져 있어서 다음에 뭘 읽을지 늘 알 수 있어요. |
-| 🎛️ **인터랙티브 그림 669개** | 본문 곳곳의 그림이 손에 반응해요. 434개는 직접 조작하는 그림으로, 슬라이더를 움직이고, 점을 끌고, 겹을 켜고 끄고, 데이터를 다시 뽑고, 값을 읽고, 결과를 보기 전에 먼저 예측해 봐요. 나머지는 단계를 넘기거나, 가리킨 부분과 이어진 곳을 강조하거나, 흐름을 움직이거나, 확대해서 보여 줘요. |
 | 🐍 **브라우저에서 돌아가는 Python** | 코드 셀이 그 자리에서 Pyodide로 실행돼요(NumPy, SciPy, pandas, matplotlib, scikit-learn). PyTorch와 GPU 예제는 복사 단추와 함께 읽기 전용으로 보여 주고, 장마다 내려받는 실습 파일로 내 컴퓨터에서 돌려 볼 수 있어요. |
 | ✅ **자동 채점 연습문제** | 내장 코드 편집기에 *실행*과 *채점* 단추가 있고, 테스트마다 결과를 보여 줘요. 장의 실습 파일은 `.zip`으로도 받을 수 있어요. |
 | 🧠 **이유까지 알려 주는 퀴즈** | 틀린 답마다 그 밑에 깔린 오해를 설명해 주고, 틀린 문제는 복습 목록에 모여요. |
@@ -118,13 +116,7 @@
 
 ## 📈 진행 상황
 
-**2.0 버전이 한국어와 영어로 공개돼 있어요.** 새로 달라진 점은 이래요.
-
-- **인터랙티브 그림 669개**: 본문에 그림을 넣었고, 그중 434개는 직접 조작해요. 슬라이더, 점 끌기, 겹, 다시 뽑기, 값 읽기, 먼저 예측하기, 경로 따라가기, 좌우 비교 같은 조작이 있어요.
-- **영어판**: 한국어 원고를 옮긴 영어판을 [ml4sci.com/en](https://ml4sci.com/en/)에서 퀴즈, 연습문제와 함께 읽을 수 있어요.
-- **장별 점검**: 사실, 수식, 코드, 퀴즈를 장마다 하나씩 점검하고 있어요. 점검을 마친 장에는 *점검 완료* 표시가 붙어요.
-
-226개 장, 퀴즈 1,406문항, 자동 채점 연습문제 268개를 두 언어 모두에서 볼 수 있고, 제보받은 오류는 그 자리에서 바로잡아요.
+**1.0 버전이 한국어와 영어로 공개돼 있어요.** 226개 장, 퀴즈 1,406문항, 자동 채점 연습문제 268개를 두 언어 모두에서 볼 수 있어요. 책은 계속 다듬고 있어요. 장마다 검토하고 고치며, 제보받은 오류는 그 자리에서 바로잡아요.
 
 ## ❓ 자주 묻는 질문
 

@@ -12,14 +12,13 @@
 <p>
   <a href="https://ml4sci.com/en/"><img alt="Read online at ml4sci.com" src="https://img.shields.io/badge/read%20online-ml4sci.com-4f46e5?logo=bookstack&logoColor=white"></a>
   <img alt="226 chapters" src="https://img.shields.io/badge/chapters-226-0284c7">
-  <img alt="669 interactive figures" src="https://img.shields.io/badge/interactive%20figures-669-db2777">
   <img alt="1,406 quiz questions" src="https://img.shields.io/badge/quiz%20questions-1%2C406-7c3aed">
   <img alt="268 graded exercises" src="https://img.shields.io/badge/graded%20exercises-268-059669?logo=python&logoColor=white">
   <br>
   <img alt="Runs in your browser" src="https://img.shields.io/badge/runs%20in-your%20browser-0f766e?logo=webassembly&logoColor=white">
   <img alt="No sign-up" src="https://img.shields.io/badge/sign--up-not%20needed-d97706">
   <img alt="Languages: English and Korean" src="https://img.shields.io/badge/languages-English%20%7C%20%ED%95%9C%EA%B5%AD%EC%96%B4-64748b">
-  <img alt="Version 2.0" src="https://img.shields.io/badge/version-2.0-334155">
+  <img alt="Version 1.0" src="https://img.shields.io/badge/version-1.0-334155">
   <a href="https://github.com/pjmbatman/ml4sci/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/pjmbatman/ml4sci?style=social"></a>
 </p>
 
@@ -37,7 +36,7 @@
 **Machine Learning for Science** ([ml4sci.com](https://ml4sci.com/en/)) is an interactive digital book for **scientists and engineers** who want to bring machine learning into their research, and for **AI researchers** who want to work on real scientific problems. You read, move interactive figures, write Python and get it graded, all in your browser. There is nothing to install and no account to create.
 
 <p align="center">
-  <a href="https://ml4sci.com/en/"><img src=".github/assets/en/demo.gif" alt="A short demo: a lesson with a figure and a quiz beside it, dragging a point in an interactive figure while its table updates, grading code in the browser and the 3D bookshelf" width="100%"></a>
+  <a href="https://ml4sci.com/en/"><img src=".github/assets/en/demo.gif" alt="A short demo: a lesson with a quiz, an interactive figure, grading code in the browser and the 3D bookshelf" width="100%"></a>
 </p>
 
 > [!NOTE]
@@ -50,14 +49,14 @@ Every chapter is built around the same loop. You read an idea, try it with your 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/en/loop-dark.webp">
-    <img src=".github/assets/en/loop-light.webp" alt="The learning loop: 1 Read a lesson with an interactive figure in the text, 2 Try the figure by dragging a point off the segment so its table marks the combination as not convex, 3 Code and grade an exercise in the browser, 4 Check yourself with quizzes that explain each wrong answer" width="100%">
+    <img src=".github/assets/en/loop-light.webp" alt="The learning loop: 1 Read a lesson, 2 Try an interactive figure, 3 Code and grade an exercise in the browser, 4 Check yourself with quizzes that explain each wrong answer" width="100%">
   </picture>
 </p>
 
 | Step | What happens | In the book |
 |---|---|---|
 | **1&nbsp;·&nbsp;Read** | Lessons with math, figures and an outline that tracks your place. | `Learning objectives → Concepts → Lab → Failure cases → Pass criteria` |
-| **2&nbsp;·&nbsp;Try** | Drag a point, move a slider or switch a layer on, and the figure redraws as you go. Some figures ask you to predict the result before they show it. | 669 interactive figures, 434 of them hands-on |
+| **2&nbsp;·&nbsp;Try** | Sliders and live plots let you test an idea before you read the proof. | Interactive figures throughout the text |
 | **3&nbsp;·&nbsp;Code** | Write Python in a built-in editor, press *Grade* and see each test pass or fail. | 268 exercises, run with [Pyodide](https://pyodide.org) |
 | **4&nbsp;·&nbsp;Check** | Concept quizzes explain the misconception behind every wrong answer, and missed questions come back for review. | 1,406 questions and a review queue |
 
@@ -70,7 +69,6 @@ Every chapter is built around the same loop. You read an idea, try it with your 
 | | |
 |---|---|
 | 🧭 **A roadmap, not a pile of chapters** | 226 chapters across 12 tracks in 7 layers: a common book of 27 parts that every field reads, plus 5 field books (physics, earth and climate, chemistry, life sciences, batteries). Each chapter declares what it builds on, so you always know what to read next. |
-| 🎛️ **669 interactive figures** | Figures throughout the text respond to you: 434 are hands-on, with sliders, draggable points, layers to switch on and off, data to resample, values to read off and questions that ask you to predict before you see. The rest step through stages, highlight connected parts as you point at them, animate a flow or zoom in. |
 | 🐍 **Python in the browser** | Code cells run in place with Pyodide (NumPy, SciPy, pandas, matplotlib, scikit-learn). PyTorch and GPU examples are shown read-only with a copy button; run them on your own machine with each chapter's downloadable lab files. |
 | ✅ **Auto-graded exercises** | A built-in code editor with *Run* and *Grade* buttons and per-test results. Each chapter's lab files also download as a `.zip` to run locally. |
 | 🧠 **Quizzes with feedback** | Every wrong answer explains the misconception behind it, and missed questions go to a review queue. |
@@ -118,13 +116,7 @@ Twelve tracks are arranged in seven layers. A track builds only on tracks in the
 
 ## 📈 Status
 
-**Version 2.0 is live** in Korean and English. What's new:
-
-- **669 interactive figures** in the text, 434 of them hands-on: sliders, draggable points, layers, resampling, value readouts, predict-first questions, path tracing, side-by-side comparisons and more.
-- **The English edition** at [ml4sci.com/en](https://ml4sci.com/en/), translated from the Korean manuscript, with its quizzes and exercises.
-- **Chapter-by-chapter checks**: chapters are being checked one at a time for facts, math, code and quizzes. A chapter that has been checked shows a *Checked* badge.
-
-All 226 chapters, 1,406 quiz questions and 268 auto-graded exercises are online in both languages, and reported errors are fixed in place.
+**Version 1.0 is live** in Korean and English. All 226 chapters, 1,406 quiz questions and 268 auto-graded exercises are online in both languages. The book keeps improving: chapters are reviewed and revised continuously, and reported errors are fixed in place.
 
 ## ❓ FAQ
 
